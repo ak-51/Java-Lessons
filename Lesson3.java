@@ -5,7 +5,7 @@ public class Lesson3
 {
     public static int invalidGuess = 0;
     
-    public static void Main(String[] args){
+    public static void main(String[] args){
         Scanner obj = new Scanner(System.in);
         
         Random random = new Random();

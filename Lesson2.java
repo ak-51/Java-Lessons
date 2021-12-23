@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Lesson2
 {
-    public static void Main(String[] args){
+    public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
         
         System.out.println("Enter your name: ");
