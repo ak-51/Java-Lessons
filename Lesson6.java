@@ -10,6 +10,8 @@ public class Lesson6
         
         System.out.println("Enter the number of times you want to display the this: ");
         int times = sc.nextInt();
+
+        sc.close();
         
         System.out.println("Times table for " +num+ ":");
         for(int i = 1; i <= times; i++){

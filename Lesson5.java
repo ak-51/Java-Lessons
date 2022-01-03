@@ -6,7 +6,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Lesson5 {
@@ -74,7 +73,7 @@ public class Lesson5 {
                     double radius = Double.parseDouble(textField1.getText());
                     
                     if(radius < 0){
-                        JOptionPane.showMessageDialog(null, "Radius cannot be negative. Try again.", "AREA OF CIRCLE",JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Radius cannot be negative. Try again.", "AREA OF CIRCLE",JOptionPane.ERROR_MESSAGE);
                     }
                     else{
                         double area = (radius * radius) * 3.142;
@@ -82,7 +81,7 @@ public class Lesson5 {
                     }
                 }
                 catch(NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null, "Radius has to be a numerical value. Try again.", "AREA OF CIRCLE",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Radius has to be a numerical value. Try again.", "AREA OF CIRCLE",JOptionPane.ERROR_MESSAGE);
                 }
                 
             }
@@ -96,7 +95,7 @@ public class Lesson5 {
                     double base = Double.parseDouble(baseField.getText());
                     
                     if(height < 0 || base < 0){
-                        JOptionPane.showMessageDialog(null, "Height or Base cannot be negative. Try again.", "AREA OF TRIANGLE",JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Height or Base cannot be negative. Try again.", "AREA OF TRIANGLE",JOptionPane.ERROR_MESSAGE);
                     }
                     else{
                         double triArea = height * base * 0.5;
@@ -104,7 +103,7 @@ public class Lesson5 {
                     }
                 }
                 catch(NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null, "Height and Base have to be numerical values. Try again.", "AREA OF TRIANGLE",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Height and Base have to be numerical values. Try again.", "AREA OF TRIANGLE",JOptionPane.ERROR_MESSAGE);
                 }
                 
                 
