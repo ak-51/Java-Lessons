@@ -18,6 +18,7 @@ public class Lesson3
         
         int guess = min-1;
         int count = 0;
+
         while(guess != randomInt){
             System.out.println("Enter your guess:");
             
@@ -82,8 +83,7 @@ public class Lesson3
             }
             
         }
-        
-        
+
         return guess;
     }
 }

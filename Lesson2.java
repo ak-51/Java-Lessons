@@ -53,6 +53,9 @@ public class Lesson2
                 extraCharge += 50;
             }
         }
+
+        myObj.close();
+
         System.out.println("User Info: ");
         System.out.println("Passenger Name: " + name);
         System.out.println("Number of bags: " + bagNumber);
