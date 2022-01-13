@@ -71,7 +71,7 @@ public class Lesson7
             
             if(sc.hasNextInt()){
                 inp = sc.nextInt();
-                if(inp < 0 || inp > 5){
+                if(inp < 1 || inp > 5){
                     System.out.println("Your guess has to be between 1 and 5 (inclusive). Try again:");
                 }
                 else{
